@@ -118,6 +118,24 @@
 	width: 136px;
 	left: 15px;
 	font-size: 20px;
+    text-align: center;
+    line-height: 32px;
+    cursor: pointer;
+    color: #d9eef7;
+    border: solid 1px #0076a3;
+
+    background-color: #0095cd; /* Fallback */
+    background-image: -ms-linear-gradient(top, #00adee, #0078a5); /* IE10 */
+    background-image: -moz-linear-gradient(top, #00adee, #0078a5); /* Firefox */
+    background-image: -o-linear-gradient(top, #00adee, #0078a5); /* Opera */
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5)); /* old Webkit */
+    background-image: -webkit-linear-gradient(top, #00adee, #0078a5); /* new Webkit */
+    background-image: linear-gradient(top, #00adee, #0078a5); /* proposed W3C Markup */
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5');
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border-radius: .5em;
 }
 
 /* days-grid
